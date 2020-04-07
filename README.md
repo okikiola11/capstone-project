@@ -52,6 +52,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Google
+- Creative Commons
 
 ## 📝 License
 
