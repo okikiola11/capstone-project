@@ -2,9 +2,12 @@
 This is an HTML &amp; CSS Capstone Project based on an online shop for electronics
 
 
-![screenshot]()
+![screenshot](images/screenshot.PNG)
+![screenshot](images/screenshot1.PNG)
 
-This project shows the format of designing a responsive webpage using bootstrap 4 classes which has in-built media queries with different breakpoints, for smaller devices, medium devices and large screen devices, this project is set up with the latest design and development standards using BootstrapCDN, provided for free by the folks at StackPath.  Bootstrap is developed mobile first, it employs a handful of important global styles and settings which makes the page responsive when the appropriate classes are used. 
+This project shows the format of designing a responsive webpage using CSS3 flexbox, CSS3 media queries and bootstrap 4 classes which has in-built media queries with different breakpoints, for smaller devices, medium devices and large screen devices. It is set up with the latest design and development standards, this project is developed mobile which rightly makes the page responsive. It also shows a combination of typography and colors. 
+This is a personalized project after scrolling the prototype design of the online shop for elctronics by ZATTIX. I came up with this creatively personaliaed version. 
+ 
 
 ## Built With
 
@@ -13,7 +16,7 @@ This project shows the format of designing a responsive webpage using bootstrap 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/okikiola11/capstone-project/ce8e61dc4a1a620a2d63cea0b5e9e3356b32e51a/index.html)
 
 
 ## Getting Started
