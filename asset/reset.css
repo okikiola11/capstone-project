@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    background-color: #e4dcdc;
+    background-color: #f1e0e0;
 }
 
 body,
@@ -11,7 +12,9 @@ ul {
     padding: 0;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}   */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
