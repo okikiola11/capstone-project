@@ -1,21 +1,21 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f1e0e0;
+  background-color: #f1e0e0;
 }
 
 body,
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #ffffff;
+  color: #fff;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
