@@ -2,8 +2,8 @@
 This is an HTML &amp; CSS Capstone Project based on an online shop for electronics
 
 
-![screenshot](images/screenshot.PNG)
-![screenshot](images/screenshot1.PNG)
+![screenshot](asset/images/screenshot.PNG)
+![screenshot](asset/images/screenshot1.PNG)
 
 This project shows the format of designing a responsive webpage using CSS3 flexbox, CSS3 media queries and bootstrap 4 classes which has in-built media queries with different breakpoints, for smaller devices, medium devices and large screen devices. It is set up with the latest design and development standards, this project is developed mobile which rightly makes the page responsive. It also shows a combination of typography and colors. 
 This is a personalized project after scrolling the prototype design of the online shop for elctronics by ZATTIX. I came up with this creatively personaliaed version. 
