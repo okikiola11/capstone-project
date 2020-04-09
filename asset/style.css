@@ -118,8 +118,7 @@
 
 .inner-content__txt {
   margin-top: 15px;
-  padding-left: 0;
-  padding-top: 5px;
+  padding: 5px 25px 1px 25px;
 }
 
 .slide-img {
@@ -316,7 +315,8 @@ Extra large devices (large desktops, 1200px and up)
 
   .inner-content__txt {
     width: 550px;
-    padding-left: 10px;
+    margin-top: 1px;
+    padding: 1px 1px 1px 10px;
   }
 
   .ft-footer__col,
