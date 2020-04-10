@@ -16,7 +16,7 @@ This is a personalized project after scrolling the prototype design of the onlin
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/okikiola11/capstone-project/ce8e61dc4a1a620a2d63cea0b5e9e3356b32e51a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/okikiola11/capstone-project/8aa98b233c4c4710db382127c1960cf8c4940966/index.html)
 
 
 ## Getting Started

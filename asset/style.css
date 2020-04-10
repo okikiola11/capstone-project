@@ -49,30 +49,6 @@
   position: relative;
 }
 
-.first-section__bckgrdimg {
-  background-image: url(images/saxophone.svg);
-  background-repeat: no-repeat;
-  background-position: -400px 5px;
-  position: absolute;
-  left: 10px;
-  background-size: 100% 100%;
-  width: 100%;
-  opacity: 0.4;
-  -moz-transform: skew(26deg, 0deg);
-  -webkit-transform: skew(26deg, 0deg);
-  -o-transform: skew(26deg, 0deg);
-  -ms-transform: skew(26deg, 0deg);
-  transform: skew(26deg, 0deg);
-}
-
-.first-section-hg {
-  height: 330px;
-}
-
-.f-bkhrg-h {
-  height: 230px;
-}
-
 .first-section__pad {
   color: #fff;
   text-align: center;
