@@ -6,15 +6,13 @@
     <title> Online Shop for Musical Instruments </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/reset.css">
     <link rel="stylesheet" href="asset/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark pt-lg-2 pb-2">
-            <a class="navbar-brand pl-lg-4 pr-lg-3" href="index.html">ZATTIX</a>
+            <a class="navbar-brand pl-lg-4 pr-lg-3" href="index.html">CRYSTALS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,7 +36,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-ad mr-lg-5 my-2 my-sm-0" type="submit"> Post an Ad </button>
+                        <button class="btn btn-ad mr-lg-5 my-2 my-sm-0" type="submit"> Cart </button>
                     </li>
                 </ul>
 
@@ -55,6 +53,7 @@
 
     <main>
         <section class="first-section d-none d-lg-block">
+            <div class="first-section__bckgrdimg first-section-hg"></div>
             <div class="first-section__pad">
                 <h1> ZITTAX </h1>
                 <h5> Buying and Selling couldn't be Simpler than this!</h5>
@@ -88,7 +87,7 @@
 
         <section class="second-section__bg">
             <h4 class="hdr-font hdr-ads"> HOT ADS </h4>
-            <div class="second-section">
+            <div class="flexbox__flex second-section">
                 <div class="second-section_icon">
                     <a href="#" class="color-txt"><i class="far fa-arrow-alt-circle-left"></i></a>
                 </div>
@@ -99,9 +98,14 @@
                     <a href="#" class="hdr-font">
                         <h2> A BREAKTHROUGH INSTRUMENT WITH THE SOUL OF A CLASSIC </h2>
                     </a>
-                    <p class="txt-font">To an observer, it’s an object of beauty for the eyes and ears. To a pianist, it sings to the heart and soul of an artist. To Roland’s master designers, the RG-3F is a mini grand that reflects the look, touch, and sound of tradition while boasting the most advanced SuperNATURAL Piano technology on the market. Simply, this instrument is exquisite.
+                    <p class="txt-font">To an observer, it’s an object of beauty for the eyes and ears. To a pianist, it sings to the heart and soul of an artist. To Roland’s master designers, the RG-3F is a mini grand that reflects the look, touch, and sound of tradition while boasting the most advanced SuperNATURAL Piano technology on the market. 
                     </p>
-                    <p><span>By</span><strong> RG-3F</strong></p>
+                    <div>
+                        <div><span>By</span><strong> RG-3F</strong></div>
+                        <div class="mb-2">
+                            <strong class="type-sect-col mt-2">Location:</strong><span class="date-color"> 21, Start street, San Francisco, US</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="second-section_icon color-txt">
                     <a href="#" class="color-txt"><i class="far fa-arrow-alt-circle-right"></i></a>
@@ -111,14 +115,14 @@
 
         <section class="third-section__pad">
             <h5 class="display"> Third Section </h5>
-            <div class="third-section">
+            <div class="flexbox__flex third-section">
                 <div class="third-section__wid">
                     <div class="third-section__hdr"> 
                         <img src="asset/images/piano.svg" alt="Piano icon"> Pianos 
                      </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano1.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Williams Rhapsody 2 88-Key Console Digital Piano</a>
@@ -127,16 +131,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$569.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano2.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Williams Symphony Grand Digital Piano with Bench</a>
@@ -145,16 +156,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$1699.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano3.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">
@@ -165,16 +183,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$1099.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano4.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">
@@ -185,17 +210,24 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$1349.99</strong></span>
                         </div>
                     </div>
                 </div>             
             </div>
             
-            <div class="third-section">
+            <div class="flexbox__flex third-section">
                 <div class="third-section__wid">
                     <div class="third-section__hdr">
                         <img src="asset/images/drum.svg" alt="Drums"> Amplifier Effects 
@@ -203,7 +235,7 @@
                 </div>
                 
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano9.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">
@@ -214,16 +246,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$499.99</strong></span>
                         </div>
                     </div>
                 </div>  
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano10.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Mackie CR5BT 5 in Bluetooth Multimedia Monitors</a>
@@ -232,16 +271,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$199.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano11.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Markbass Mini CMD 121P 1x12 Bass Combo Amp</a>
@@ -250,16 +296,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$949.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano12.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Boss RC-10R Rhythm Loop Station Looper Effects Pedal</a>
@@ -268,17 +321,24 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$1499.99</strong></span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="third-section">
+            <div class="flexbox__flex third-section">
                 <div class="third-section__wid">
                     <div class="third-section__hdr"> 
                         <img src="asset/images/music.svg" alt="Guitar icon"> Guitar 
@@ -286,7 +346,7 @@
                 </div>
                 
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano5.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Hercules Stands GSP38WBKPLUS PLUS Series Universal AutoGrip Wall Mount Guitar Hanger - Black, 2-Pack</a>
@@ -295,16 +355,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$549.99</strong></span>
                         </div>
                     </div>
                 </div>  
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano6.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Musician's Gear Electric Acoustic and Bass Guitar, KBX2 Double-Braced Keyboard Stand Black</a>
@@ -313,16 +380,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$12.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/piano7.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Musician's Gear KBX2 Vintage Ludwig 1980s, Double-Braced Keyboard Stand Black</a>
@@ -331,16 +405,23 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$34.99</strong></span>
                         </div>
                     </div>
                 </div>
                 <div class="third-section__container">
-                    <div class="third-section__txt">
+                    <div class="flexbox__flex third-section__txt">
                         <img src="asset/images/pian08.jpg" alt="Piano">
                         <div class="third-txt hdr-font">
                             <a href="#" class="f-awe">Vintage Ludwig 1970s Vistalite Drum Kit KBX2, Acoustic and Bass Guitar, Double-Braced Keyboard</a> 
@@ -349,10 +430,17 @@
                             <span class="color-txt"><strong>NEW</strong></span>
                             <p>San Francisco, US </p>
                         </div>
-                        <div class="flexbox txt-font">
-                            <span class="f-awe fontawe-nn">
-                                <i class="fas fa-plus"></i>
-                            </span>
+                        <div class="flexbox__flex flexbox txt-font">
+                            <div class="btn-group dropup">
+                                <button type="button" class="f-awe fontawe-nn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Add to Collection</a>
+                                    <a class="dropdown-item" href="#">Send a message</a>
+                                    <a class="dropdown-item" href="#"> More details </a>
+                                </div>
+                            </div>
                             <span class="color-txt"><strong>$1499.99</strong></span>
                         </div>
                     </div>
@@ -373,7 +461,7 @@
                         <div class="color-txt footer-hdr"><strong>CATEGORIES</strong>
                         </div>
                         <div class="footer-hr"></div>
-                        <div class="ft-footer__flex ft-footer__col txt-font"> 
+                        <div class="flexbox__flex ft-footer__flex ft-footer__col txt-font"> 
                             <div>
                                 <ul class="footer-list">
                                     <li><a href="#">Pianos </a></li>
@@ -404,7 +492,7 @@
                         </div>
                         <div class="footer-txt hdr-font"><strong></strong></div>
                         <div class="footer-hr"></div>
-                        <div class="ft-footer__flex ft-footer__col"> 
+                        <div class="flexbox__flex ft-footer__flex ft-footer__col"> 
                             <ul class="footer-list txt-font">
                                 <li><a href="#"> Home </a></li>
                                 <li><a href="#"> Signin </a></li>
@@ -433,6 +521,11 @@
                     </div>
                 </div>
             </div>
+
+            <div class="d-flex justify-content-center border-top pt-3 txt-font mx-3">
+                <small>Copyright &copy; 2020 Zattix.com. All Rights Reserved. Designed by Okikiola Apelehin</small>  
+            </div>
+
         </div>
     </footer>
 
